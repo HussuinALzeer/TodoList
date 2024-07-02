@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.loaderLine{
+    background-color: #001f2b;
+    width: 0vw;
+    height: 200px;
+    position: absolute;
+
+}
+
+.Line1{
+    top: -4%;
+    left: 24%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.Line2{
+    top: 5%;
+    left: 71%;
+    transform: translate(-50%,-50%) rotate(135deg);
+    
+}
+
+
+.Line3{
+    top: 50%;
+    left: 94%;
+    transform: translate(-50%,-50%) rotate(180deg);
+    width: 0vw;
+}
+
+
+
+.Line5{
+    top: 88%;
+    left: 94%;
+    transform: translate(-50%,-50%) rotate(180deg);
+}
+
+.Line4{
+    top: 10%;
+    left: 94%;
+    transform: translate(-50%,-50%) rotate(180deg);
+}
+

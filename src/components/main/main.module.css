@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.title{
+    z-index: 3 !important;
+    font-size: 3em;
+    font-family: serif;
+    /* margin-top: 400px; */
+    height: 100px;
+    transition: 0.3s;
+}
+
+@media( max-width:456px){
+    .title{
+        font-size: 1.8em;
+    }
+}

@@ -1,0 +1,248 @@
+.container{
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    display: none;
+    opacity: 0;
+    background: #001f2b;
+}
+
+.addCon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add{
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(261deg, #c71ec5 0%, #ffe0d4 100%);
+
+    border-radius: 5px !important;
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.addInput{
+
+    width: 98%;
+    height: 85%;
+    border: none;
+    outline: none;
+    margin: 0px;
+    background-color: #001f2b;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.btnadd{
+    background-color: #fff;
+    padding: 20px ;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorText{
+    text-align: center;
+    color: red;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+.cards{
+    width: 100% ;
+    
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 50px 0px; 
+
+    
+}
+
+.card{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    background: rgb(255,224,212);
+    background: radial-gradient(circle, rgba(255,224,212,1) 0%, rgba(199,30,197,1) 91%);
+    box-shadow: 0px 0px 32px -7px #fff;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* transition: 0.5s ease-in-out !important; */
+}
+
+.text{
+    height: 80%;
+    /* background-color: red; */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+    background-color: #eee;
+    color: black;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.edit{
+    margin-left: 5px;
+    /* background-color: yellow; */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.delete{
+    margin-left: 5px;
+    padding: 5px;
+    /* background-color: red; */
+    border-radius: 5px;
+}
+
+.statues{
+    display: flex;
+    flex-direction: row;
+}
+
+.date{
+    margin-right: 10px;
+}
+
+.statue{
+    margin-right: 10px;
+}
+
+
+
+@media( max-width:456px){
+    .btnadd{
+        background-color: #fff;
+        padding: 10px ;
+        margin-bottom: 100px;
+        margin-left: 10px;
+        border-radius: 15px;
+        cursor: pointer; 
+    }
+
+    .btnImage{
+        width: 20px;
+        height: 20px;
+    }
+
+    .addCon{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .add{
+        background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+                radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+                radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+                radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+                linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+                linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+                linear-gradient(261deg, #c71ec5 0%, #ffe0d4 100%);
+    
+        border-radius: 5px !important;
+        width: 250px !important;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+    
+    .addInput{
+    
+        width: 96%;
+        height: 85%;
+        border: none;
+        outline: none;
+        margin: 0px;
+        background-color: #001f2b;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .cardsCon{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards{
+        width: 70% ;
+        display: grid; 
+        grid-template-columns: 1fr ; 
+        gap: 50px 0px; 
+        
+       /* background-color: red; */
+       margin-right: 20px;
+        
+    }
+    
+    .card{
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+        background: rgb(255,224,212);
+        background: radial-gradient(circle, rgba(255,224,212,1) 0%, rgba(199,30,197,1) 91%);
+        box-shadow: 0px 0px 32px -7px #fff;
+        /* margin-left: 150px !important; */
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        /* transition: 0.5s ease-in-out !important; */
+        
+    }
+
+    .date{
+        margin: 10px;
+        font-size: 0.8rem;
+    }
+
+    .text{
+        /* height: 80%; */
+        /* background-color: red; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+}
